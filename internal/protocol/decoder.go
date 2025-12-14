@@ -140,4 +140,3 @@ func (d *Decoder) ReadRequestHeader() (*RequestHeader, error) {
 		ClientID:      clientID,
 	}, nil
 }
-

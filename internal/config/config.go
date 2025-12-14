@@ -7,4 +7,3 @@ type Config struct {
 	DataDir  string
 	LogLevel string
 }
-

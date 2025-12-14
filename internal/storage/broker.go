@@ -57,4 +57,3 @@ func (b *Broker) GetAllTopics() []string {
 func (b *Broker) GetNodeID() int32 {
 	return b.nodeID
 }
-

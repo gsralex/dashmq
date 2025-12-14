@@ -92,4 +92,3 @@ func (p *Partition) GetHighWatermark() int64 {
 func (p *Partition) GetLogEndOffset() int64 {
 	return p.GetHighWatermark()
 }
-

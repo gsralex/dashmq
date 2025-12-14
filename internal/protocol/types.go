@@ -136,4 +136,3 @@ type RequestHeader struct {
 type ResponseHeader struct {
 	CorrelationID int32
 }
-

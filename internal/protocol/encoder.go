@@ -90,4 +90,3 @@ func (e *Encoder) WriteArray(length int32, fn func(*Encoder, int) error) error {
 func (e *Encoder) WriteResponseHeader(correlationID int32) error {
 	return e.WriteInt32(correlationID)
 }
-

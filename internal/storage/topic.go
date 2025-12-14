@@ -39,4 +39,3 @@ func (t *Topic) GetPartitionCount() int32 {
 	defer t.mu.RUnlock()
 	return int32(len(t.Partitions))
 }
-
